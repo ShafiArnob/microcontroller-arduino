@@ -33,7 +33,7 @@ void setup() {
   Serial.begin(115200);
   delay(1000);
   WiFi.mode(WIFI_STA); //Optional
-  WiFi.begin("Arnob", "kimjongun");
+  WiFi.begin("", "");
   Serial.print("Connecting to Wi-Fi");
   while (WiFi.status() != WL_CONNECTED){
     Serial.print(".");
